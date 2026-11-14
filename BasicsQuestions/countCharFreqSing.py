@@ -12,5 +12,6 @@ count_ch = 0
 for j in freq:
     if freq[j] == 1:
         count_ch += 1
+        print(j)
 
 print(count_ch)
